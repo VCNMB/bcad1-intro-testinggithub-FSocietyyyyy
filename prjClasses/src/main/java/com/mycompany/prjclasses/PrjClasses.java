@@ -9,8 +9,12 @@ package com.mycompany.prjclasses;
  * @author lab_services_student
  */
 public class PrjClasses {
-
+      
     public static void main(String[] args) {
-        System.out.println("I just done my not first code commit");
+        newClass nc = new newClass();
+        
+        nc.helloClass();
+        
+        System.out.println(nc.sSecClasVar);
     }
 }
